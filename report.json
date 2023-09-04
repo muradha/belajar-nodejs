@@ -1,0 +1,694 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Exception",
+    "trigger": "Exception",
+    "filename": "report.json",
+    "dumpEventTime": "2023-08-14T09:28:35Z",
+    "dumpEventTimeStamp": "1691980115575",
+    "processId": 4952,
+    "threadId": 0,
+    "cwd": "C:\\laragon\\www\\belajar_nodejs",
+    "commandLine": [
+      "C:\\laragon\\bin\\nodejs\\node-v18\\node.exe",
+      "report.mjs"
+    ],
+    "nodejsVersion": "v18.8.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "18.8.0",
+      "v8": "10.2.154.13-node.11",
+      "uv": "1.43.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.9",
+      "ares": "1.18.1",
+      "modules": "108",
+      "nghttp2": "1.47.0",
+      "napi": "8",
+      "llhttp": "6.0.7",
+      "openssl": "3.0.5+quic",
+      "cldr": "41.0",
+      "icu": "71.1",
+      "tz": "2022a",
+      "unicode": "14.0",
+      "ngtcp2": "0.1.0-DEV",
+      "nghttp3": "0.1.0-DEV"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v18.8.0/node-v18.8.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v18.8.0/node-v18.8.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v18.8.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19042",
+    "osVersion": "Windows 10 Enterprise",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz",
+        "speed": 2712,
+        "user": 124046,
+        "nice": 0,
+        "sys": 95859,
+        "idle": 4510343,
+        "irq": 4062
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz",
+        "speed": 2712,
+        "user": 114734,
+        "nice": 0,
+        "sys": 55500,
+        "idle": 4559843,
+        "irq": 6421
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz",
+        "speed": 2712,
+        "user": 154109,
+        "nice": 0,
+        "sys": 56656,
+        "idle": 4519312,
+        "irq": 1000
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz",
+        "speed": 2712,
+        "user": 137843,
+        "nice": 0,
+        "sys": 43468,
+        "idle": 4548765,
+        "irq": 500
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:09",
+        "address": "192.168.56.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Ethernet 3",
+        "internal": false,
+        "mac": "0a:00:27:00:00:0f",
+        "address": "192.168.252.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Ethernet 5",
+        "internal": false,
+        "mac": "0a:00:27:00:00:08",
+        "address": "192.168.114.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "9a:22:10:85:11:c9",
+        "address": "192.168.215.43",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "ATLAS-OUAETPOI9"
+  },
+  "javascriptStack": {
+    "message": "Error: ups",
+    "stack": [
+      "at sampleError (file:///C:/laragon/www/belajar_nodejs/report.mjs:9:11)",
+      "at file:///C:/laragon/www/belajar_nodejs/report.mjs:12:1",
+      "at ModuleJob.run (node:internal/modules/esm/module_job:193:25)",
+      "at async Promise.all (index 0)",
+      "at async ESMLoader.import (node:internal/modules/esm/loader:528:24)",
+      "at async loadESM (node:internal/process/esm_loader:91:5)"
+    ],
+    "errorProperties": {
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 6074368,
+    "executableMemory": 524288,
+    "totalCommittedMemory": 6074368,
+    "availableMemory": 2193197608,
+    "totalGlobalHandlesMemory": 8192,
+    "usedGlobalHandlesMemory": 2816,
+    "usedMemory": 5503296,
+    "memoryLimit": 2197815296,
+    "mallocedMemory": 254072,
+    "externalMemory": 360553,
+    "peakMallocedMemory": 196720,
+    "nativeContextCount": 1,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "old_space": {
+        "memorySize": 4022272,
+        "committedMemory": 4022272,
+        "capacity": 3948024,
+        "used": 3947928,
+        "available": 96
+      },
+      "code_space": {
+        "memorySize": 471040,
+        "committedMemory": 471040,
+        "capacity": 434368,
+        "used": 434368,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 532480,
+        "committedMemory": 532480,
+        "capacity": 515632,
+        "used": 515576,
+        "available": 56
+      },
+      "large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1030976,
+        "used": 0,
+        "available": 1030976
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1030976,
+        "used": 605424,
+        "available": 425552
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff75e1d5009",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+15945"
+    },
+    {
+      "pc": "0x00007ff75e1d966a",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+33962"
+    },
+    {
+      "pc": "0x00007ff75e1d8238",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28792"
+    },
+    {
+      "pc": "0x00007ff75e24ff57",
+      "symbol": "node::OnFatalError+6679"
+    },
+    {
+      "pc": "0x00007ff75e250a9f",
+      "symbol": "node::OnFatalError+9567"
+    },
+    {
+      "pc": "0x00007ff75e2507bc",
+      "symbol": "node::OnFatalError+8828"
+    },
+    {
+      "pc": "0x00007ff75eca3bed",
+      "symbol": "v8::internal::Builtins::code+247949"
+    },
+    {
+      "pc": "0x00007ff75eca37f9",
+      "symbol": "v8::internal::Builtins::code+246937"
+    },
+    {
+      "pc": "0x00007ff75eca3abc",
+      "symbol": "v8::internal::Builtins::code+247644"
+    },
+    {
+      "pc": "0x00007ff75eca3920",
+      "symbol": "v8::internal::Builtins::code+247232"
+    },
+    {
+      "pc": "0x00007ff75ed88801",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+558449"
+    },
+    {
+      "pc": "0x00007ff75ed0c114",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+48772"
+    },
+    {
+      "pc": "0x00007ff75ed4018b",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+261883"
+    },
+    {
+      "pc": "0x00007ff75edd91b8",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+888616"
+    },
+    {
+      "pc": "0x00007ff75ed31a94",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+202756"
+    },
+    {
+      "pc": "0x00007ff75ed0a61b",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+41867"
+    },
+    {
+      "pc": "0x00007ff75ebd4c5a",
+      "symbol": "v8::internal::Execution::CallWasm+1562"
+    },
+    {
+      "pc": "0x00007ff75ebd4d7b",
+      "symbol": "v8::internal::Execution::CallWasm+1851"
+    },
+    {
+      "pc": "0x00007ff75ebd5b2a",
+      "symbol": "v8::internal::Execution::TryCallScript+346"
+    },
+    {
+      "pc": "0x00007ff75ebae6da",
+      "symbol": "v8::internal::MicrotaskQueue::RunMicrotasks+410"
+    },
+    {
+      "pc": "0x00007ff75ebae47a",
+      "symbol": "v8::internal::MicrotaskQueue::PerformCheckpointInternal+74"
+    },
+    {
+      "pc": "0x00007ff75e2f7318",
+      "symbol": "node::CallbackScope::~CallbackScope+424"
+    },
+    {
+      "pc": "0x00007ff75e2f71de",
+      "symbol": "node::CallbackScope::~CallbackScope+110"
+    },
+    {
+      "pc": "0x00007ff75e237eb2",
+      "symbol": "v8::base::CPU::has_fpu+34786"
+    },
+    {
+      "pc": "0x00007ff75e32bca7",
+      "symbol": "uv_timer_stop+1207"
+    },
+    {
+      "pc": "0x00007ff75e32824b",
+      "symbol": "uv_async_send+331"
+    },
+    {
+      "pc": "0x00007ff75e3279dc",
+      "symbol": "uv_loop_init+1292"
+    },
+    {
+      "pc": "0x00007ff75e327b7a",
+      "symbol": "uv_run+202"
+    },
+    {
+      "pc": "0x00007ff75e2f6ba5",
+      "symbol": "node::SpinEventLoop+309"
+    },
+    {
+      "pc": "0x00007ff75e207834",
+      "symbol": "std::basic_ios<char,std::char_traits<char> >::setstate+125188"
+    },
+    {
+      "pc": "0x00007ff75e285ed8",
+      "symbol": "node::InitializeNodeWithArgs+7784"
+    },
+    {
+      "pc": "0x00007ff75e287487",
+      "symbol": "node::Start+199"
+    },
+    {
+      "pc": "0x00007ff75e0a73fc",
+      "symbol": "CRYPTO_memcmp+439436"
+    },
+    {
+      "pc": "0x00007ff75f2b6568",
+      "symbol": "v8::internal::compiler::ToString+14584"
+    },
+    {
+      "pc": "0x00007ff833667034",
+      "symbol": "BaseThreadInitThunk+20"
+    },
+    {
+      "pc": "0x00007ff8340bcec1",
+      "symbol": "RtlUserThreadStart+33"
+    }
+  ],
+  "resourceUsage": {
+    "userCpuSeconds": 0.25,
+    "kernelCpuSeconds": 0.078,
+    "cpuConsumptionPercent": 32.8,
+    "maxRss": 54153216,
+    "pageFaults": {
+      "IORequired": 15846,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 5,
+      "writes": 4
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000021b5d6e7190"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007ff761d10aa0"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x0000021b5dbc3be0",
+      "repeat": 0,
+      "firesInMsFromNow": -4730360,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000021b5dbc3c80"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000021b5dbc3cf8"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000021b5dbc3d70"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000021b5dbc3de8"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000021b5dbc3e60"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007ff761d10970"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000021b5bc0bb18",
+      "width": 135,
+      "height": 14,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000021b5d6c3178",
+      "signum": 28,
+      "signal": "SIGWINCH"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000021b5bc0d1c8",
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": false
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000021b5bc0d5e8",
+      "width": 135,
+      "height": 14,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x00007ff761f9bfb0",
+      "loopIdleTimeSeconds": 1.74e-05
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "ACLOCAL_PATH": "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANSICON": "118x1000 (118x29)",
+    "ANSICON_DEF": "7",
+    "APPDATA": "C:\\Users\\Kiv\\AppData\\Roaming",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\LOCAL\\crashpad_7652_FALPBELHSVOFWATF",
+    "CMDER_ALIASES": "1",
+    "CMDER_CLINK": "1",
+    "CMDER_CONFIGURED": "1",
+    "CMDER_INIT_END": " 9:06:42,83",
+    "CMDER_INIT_START": " 9:06:37,36",
+    "CMDER_ROOT": "C:\\laragon\\bin\\cmder",
+    "CMDER_SHELL": "cmd",
+    "CMDER_USER_FLAGS": " ",
+    "COLORTERM": "truecolor",
+    "COLUMNS": "135",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "ATLAS-OUAETPOI9",
+    "COMSPEC": "C:\\Windows\\system32\\cmd.exe",
+    "CONFIG_SITE": "C:/Program Files/Git/etc/config.site",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "ConEmuANSI": "ON",
+    "ConEmuArgs": "/Icon \"C:\\laragon\\bin\\cmder\\icons\\cmder.ico\" /Title Cmder",
+    "ConEmuBackHWND": "0x000103A0",
+    "ConEmuBaseDir": "C:\\laragon\\bin\\cmder\\vendor\\conemu-maximus5\\ConEmu",
+    "ConEmuBaseDirShort": "C:\\laragon\\bin\\cmder\\vendor\\conemu-maximus5\\ConEmu",
+    "ConEmuBuild": "221218",
+    "ConEmuCfgDir": "C:\\laragon\\bin\\cmder\\vendor\\conemu-maximus5",
+    "ConEmuDir": "C:\\laragon\\bin\\cmder\\vendor\\conemu-maximus5",
+    "ConEmuDrawHWND": "0x000103A2",
+    "ConEmuDrive": "C:",
+    "ConEmuHWND": "0x0007024A",
+    "ConEmuHooks": "Enabled",
+    "ConEmuIsAdmin": "ADMIN",
+    "ConEmuPID": "7284",
+    "ConEmuPalette": "Monokai",
+    "ConEmuServerPID": "7480",
+    "ConEmuTask": "{cmd::Cmder}",
+    "ConEmuWorkDir": "C:\\laragon\\www",
+    "ConEmuWorkDrive": "C:",
+    "DISPLAY": "needs-to-be-defined",
+    "DOCUMENT_ROOT": "C:\\laragon\\www",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git\\bin",
+    "GIT_ASKPASS": "c:\\Users\\Kiv\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "GIT_INSTALL_ROOT": "C:\\laragon\\bin\\cmder\\..\\git",
+    "GIT_VERSION_USER": "2.39.0.windows.2",
+    "HOME": "C:\\Users\\Kiv",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Kiv",
+    "HOSTNAME": "ATLAS-OUAETPOI9",
+    "INFOPATH": "C:\\Program Files\\Git\\mingw64\\local\\info;C:\\Program Files\\Git\\mingw64\\share\\info;C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info",
+    "LANG": "en_US.UTF-8",
+    "LARAGON_ROOT": "C:\\laragon\\",
+    "LINES": "14",
+    "LOCALAPPDATA": "C:\\Users\\Kiv\\AppData\\Local",
+    "LOGONSERVER": "\\\\ATLAS-OUAETPOI9",
+    "MANPATH": "C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "C:/Program Files/Git/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "C:/Program Files/Git/mingw64",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OLD_PATH": "C:\\laragon\\bin\\cmder\\vendor\\conemu-maximus5\\ConEmu\\Scripts;C:\\laragon\\bin\\cmder\\vendor\\conemu-maximus5;C:\\laragon\\bin\\cmder\\vendor\\conemu-maximus5\\ConEmu;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Kiv\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Windows\\AtlasModules;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Users\\Kiv\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\Kiv\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\Kiv\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Kiv\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Kiv\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Kiv\\.fly\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\laragon\\bin\\cmder\\vendor\\bin",
+    "OPENSSL_CONF": "C:\\laragon\\bin\\apache\\httpd-2.4.54-win64-VS16\\conf\\openssl.cnf",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Kiv\\bin;C:\\Users\\Kiv\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\Kiv\\AppData\\Roaming\\npm;C:\\Users\\Kiv\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mariadb-10.3.16-winx64\\bin;C:\\laragon\\bin\\php\\php-8.2.6-Win32-vs16-x64;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\apache\\httpd-2.4.54-win64-VS16\\bin;C:\\laragon\\bin\\redis\\redis-x64-5.0.14.1;C:\\laragon\\bin\\nodejs\\node-v18;C:\\laragon\\bin\\python\\python-3.10;C:\\laragon\\bin\\python\\python-3.10\\Scripts;C:\\laragon\\bin\\nginx\\nginx-1.22.0;C:\\laragon\\bin\\telnet;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin;C:\\laragon\\usr\\bin;C:\\laragon\\bin\\cmder\\vendor\\conemu-maximus5\\ConEmu\\Scripts;C:\\laragon\\bin\\cmder\\vendor\\conemu-maximus5;C:\\laragon\\bin\\cmder\\vendor\\conemu-maximus5\\ConEmu;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Users\\Kiv\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Windows\\AtlasModules;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet;C:\\Users\\Kiv\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:\\Users\\Kiv\\AppData\\Local\\Programs\\Python\\Python311;C:\\Users\\Kiv\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Kiv\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Kiv\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Kiv\\.fly\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\laragon\\bin\\cmder\\vendor\\bin;C:\\laragon\\bin\\cmder",
+    "ORIGINAL_TEMP": "C:/Users/Kiv/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/Kiv/AppData/Local/Temp",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\Kiv\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Kiv\\bin;C:\\Users\\Kiv\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\Kiv\\AppData\\Roaming\\npm;C:\\Users\\Kiv\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mariadb-10.3.16-winx64\\bin;C:\\laragon\\bin\\php\\php-8.2.6-Win32-vs16-x64;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\apache\\httpd-2.4.54-win64-VS16\\bin;C:\\laragon\\bin\\redis\\redis-x64-5.0.14.1;C:\\laragon\\bin\\nodejs\\node-v18;C:\\laragon\\bin\\python\\python-3.10;C:\\laragon\\bin\\python\\python-3.10\\Scripts;C:\\laragon\\bin\\nginx\\nginx-1.22.0;C:\\laragon\\bin\\telnet;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin;C:\\laragon\\usr\\bin;C:\\laragon\\bin\\cmder\\vendor\\conemu-maximus5\\ConEmu\\Scripts;C:\\laragon\\bin\\cmder\\vendor\\conemu-maximus5;C:\\laragon\\bin\\cmder\\vendor\\conemu-maximus5\\ConEmu;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Users\\Kiv\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Windows\\AtlasModules;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet;C:\\Users\\Kiv\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:\\Users\\Kiv\\AppData\\Local\\Programs\\Python\\Python311;C:\\Users\\Kiv\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Kiv\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Kiv\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Kiv\\.fly\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\laragon\\bin\\cmder\\vendor\\bin;C:\\laragon\\bin\\cmder;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig",
+    "PKG_CONFIG_SYSTEM_INCLUDE_PATH": "C:/Program Files/Git/mingw64/include",
+    "PKG_CONFIG_SYSTEM_LIBRARY_PATH": "C:/Program Files/Git/mingw64/lib",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 142 Stepping 9, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "8e09",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PROMPT": "C\bL\bI\bN\bK\b \b$P$G",
+    "PS1": "\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ ",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "C:/laragon/www/belajar_nodejs",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "1",
+    "SSH_ASKPASS": "C:/Program Files/Git/mingw64/bin/git-askpass.exe",
+    "SVN_SSH": "C:\\\\Program Files\\\\Git\\\\bin\\\\ssh.exe",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\Windows",
+    "TEMP": "C:\\Users\\Kiv\\AppData\\Local\\Temp",
+    "TERM": "cygwin",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.74.2",
+    "TMP": "C:\\Users\\Kiv\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\Kiv\\AppData\\Local\\Temp",
+    "USERDOMAIN": "ATLAS-OUAETPOI9",
+    "USERDOMAIN_ROAMINGPROFILE": "ATLAS-OUAETPOI9",
+    "USERNAME": "Kiv",
+    "USERPROFILE": "C:\\Users\\Kiv",
+    "USER_BUILD": "windows.2",
+    "USER_DIR": "C:\\laragon\\usr",
+    "USER_MAJOR": "2",
+    "USER_MINOR": "39",
+    "USER_PATCH": "0",
+    "USR_DIR": "C:\\laragon\\usr",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "--ms-enable-electron-run-as-node",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\Kiv\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\Kiv\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-85c2da22bc-sock",
+    "WINDIR": "C:\\Windows",
+    "_": "C:/laragon/bin/nodejs/node-v18/node",
+    "__PSLockDownPolicy": "0",
+    "add_path": "C:\\laragon\\bin\\cmder",
+    "add_to_path": "C:\\laragon\\bin\\cmder",
+    "aliases": "C:\\laragon\\bin\\cmder\\config\\user_aliases.cmd",
+    "architecture_bits": "64",
+    "ccall": "call \"C:\\laragon\\bin\\cmder\\vendor\\bin\\cexec.cmd\"",
+    "cexec": "\"C:\\laragon\\bin\\cmder\\vendor\\bin\\cexec.cmd\"",
+    "clink_architecture": "x64",
+    "currenArgu": "C:/Program Files/Git/setpath",
+    "debug_output": "0",
+    "depth": "1",
+    "fast_init": "0",
+    "feFlagName": " ",
+    "feNot": "false",
+    "find_query": "C:\\\\laragon\\\\bin\\\\cmder",
+    "found": "1",
+    "git_executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+    "git_locale": "\"C:\\Program Files\\Git\\usr\\bin\\locale.exe\"",
+    "lib_base": "call \"C:\\laragon\\bin\\cmder\\vendor\\lib\\lib_base.cmd\"",
+    "lib_console": "call \"C:\\laragon\\bin\\cmder\\vendor\\lib\\lib_console.cmd\"",
+    "lib_git": "call \"C:\\laragon\\bin\\cmder\\vendor\\lib\\lib_git.cmd\"",
+    "lib_path": "call \"C:\\laragon\\bin\\cmder\\vendor\\lib\\lib_path.cmd\"",
+    "lib_profile": "call \"C:\\laragon\\bin\\cmder\\vendor\\lib\\lib_profile.cmd\"",
+    "max_depth": "1",
+    "nix_tools": "1",
+    "path_position": "append",
+    "position": "append",
+    "print_debug": "if 0 gtr 0 call \"C:\\laragon\\bin\\cmder\\vendor\\lib\\lib_console.cmd\" debug_output",
+    "print_error": "call \"C:\\laragon\\bin\\cmder\\vendor\\lib\\lib_console.cmd\" show_error",
+    "print_verbose": "if 0 gtr 0 call \"C:\\laragon\\bin\\cmder\\vendor\\lib\\lib_console.cmd\" verbose_output",
+    "time_init": "0",
+    "user_aliases": "C:\\laragon\\bin\\cmder\\config\\user_aliases.cmd",
+    "verbose_output": "0"
+  },
+  "sharedObjects": [
+    "C:\\laragon\\bin\\nodejs\\node-v18\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Program Files\\Avast Software\\Avast\\aswhook.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\SYSTEM32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\UMPDC.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\bcryptprimitives.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\System32\\winrnr.dll"
+  ]
+}
